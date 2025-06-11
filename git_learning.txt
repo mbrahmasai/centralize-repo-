@@ -5,18 +5,15 @@ git init   // to initiaze
 
 file in working directory  
 ----------------------
-
 git status     // file in red  color , then file present in the working directory only 
 
 git add .      /all file to staging
 git add file1       // single file to staging area
 git add file1 file2 file3   //required multiple file to staging area
 
-
 staging area
 -----------------
 git status     // file in green color , the file present in the staging area
-
 
 git commit -m "commit_message"    // all file present in the staging area to local repo
 
@@ -31,7 +28,9 @@ git branch        // check that what are the branches present in here , which br
 
 if i am not in target branch , goto that branch with help git checkout
 --------------------------------------------------------------
-git checkout -b branch_name
+git checkout -b branch_name  // create and switch 
+
+git checkout branch_name   // switch to that branch
 
 if remote repo is added 
 ----------------------
@@ -41,17 +40,7 @@ git push -u name_of_origin branch_name
 
 remote 
 -----------------
-
 check in repo 
-
-
-=================================================================
-to get ACCESS  
----------
-git config --global user.email "brahmasaicloud@gmail.com"
-git config --global user.name "Brahmasai"
-================================================================
-
 
 1.add change to that repo 
 ==================================
@@ -62,3 +51,15 @@ git push -u name_of_origin branch_name
 git add .
 git commit -m "third"
 git push -u origin main
+======================================
+
+remote to working directory 
+====================================
+git clone https://github.com/mbrahmasai/centralize-repo-.git
+
+=================================================================
+to get ACCESS  
+---------
+git config --global user.email "brahmasaicloud@gmail.com"
+git config --global user.name "Brahmasai"
+================================================================
