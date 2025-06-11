@@ -55,3 +55,10 @@ git config --global user.name "Brahmasai"
 
 1.add change to that repo 
 ==================================
+git add .
+git commit -m "commit_message"
+git push -u name_of_origin branch_name
+
+git add .
+git commit -m "third"
+git push -u origin main
