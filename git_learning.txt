@@ -63,3 +63,13 @@ to get ACCESS
 git config --global user.email "brahmasaicloud@gmail.com"
 git config --global user.name "Brahmasai"
 ================================================================
+
+
+
+note :
+---------------
+1. revert
+2. reset 
+3. stash 
+4. cherry-pick
+
