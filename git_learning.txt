@@ -1,0 +1,57 @@
+this is first commit to repo
+
+git init   // to initiaze 
+
+
+file in working directory  
+----------------------
+
+git status     // file in red  color , then file present in the working directory only 
+
+git add .      /all file to staging
+git add file1       // single file to staging area
+git add file1 file2 file3   //required multiple file to staging area
+
+
+staging area
+-----------------
+git status     // file in green color , the file present in the staging area
+
+
+git commit -m "commit_message"    // all file present in the staging area to local repo
+
+local repo
+--------------------------------------
+
+git log 
+git log --oneline
+
+git branch -M branch_name
+git branch        // check that what are the branches present in here , which branch are u in .
+
+if i am not in target branch , goto that branch with help git checkout
+--------------------------------------------------------------
+git checkout -b branch_name
+
+if remote repo is added 
+----------------------
+git remote add name_of_origin  https://github.com/mbrahmasai/centralize-repo-.git
+
+git push -u name_of_origin branch_name
+
+remote 
+-----------------
+
+check in repo 
+
+
+=================================================================
+to get ACCESS  
+---------
+git config --global user.email "brahmasaicloud@gmail.com"
+git config --global user.name "Brahmasai"
+================================================================
+
+
+1.add change to that repo 
+==================================
